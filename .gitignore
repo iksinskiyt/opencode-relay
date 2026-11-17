@@ -1,0 +1,11 @@
+node_modules/
+dist/
+# state and secrets now live in the XDG data dir; these cover an older in-repo install
+auth-state/
+auth-state/**
+outbox/
+*.tmp
+config.json
+.env
+*.env
+.env.*

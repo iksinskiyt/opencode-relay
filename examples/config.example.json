@@ -1,0 +1,50 @@
+{
+  "enabled": true,
+  "provider": "whatsapp",
+  "notifications": {
+    "preset": "all",
+    "orchestratorOnly": true,
+    "categories": {
+      "passCompleted": true,
+      "taskCompleted": true,
+      "questions": true,
+      "permissions": true,
+      "errors": true,
+      "sessionStarted": false,
+      "sessionInterrupted": true,
+      "message": true
+    },
+    "passes": {
+      "mode": "batch",
+      "debounceSeconds": 120,
+      "maxWaitSeconds": 600
+    }
+  },
+  "aiProcessing": {
+    "enabled": true,
+    "model": {
+      "providerID": "",
+      "modelID": ""
+    }
+  },
+  "whatsapp": {
+    "enabled": true,
+    "selfChat": true,
+    "target": ""
+  },
+  "discord": {
+    "enabled": false,
+    "target": "channel",
+    "channelID": "",
+    "dmUserID": "",
+    "buttons": false,
+    "permissions": ""
+  },
+  "security": {
+    "pairingRequired": true,
+    "allowUnpairedUsers": false,
+    "allowlist": [],
+    "imageRoots": [],
+    "allowImageUrls": false
+  }
+}
