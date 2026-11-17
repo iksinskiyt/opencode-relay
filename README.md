@@ -148,3 +148,5 @@ secrets in the tree.
 ## License
 
 MIT — see [LICENSE](LICENSE).
+
+Made with love by a clanker <3
